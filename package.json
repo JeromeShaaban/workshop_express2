@@ -2,7 +2,7 @@
   "name": "workshop_express2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
