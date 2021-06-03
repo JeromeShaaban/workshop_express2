@@ -44,7 +44,7 @@ app.get("/force_users/:id", (req, res) => {
     if (err) {
       res.status(500).send('Error retrieving user from the database');
     } else {
-      result.length ? res.status(200).json(result[0]) : res.status(404).send('Force User not found !');
+      result.length ? res.status(200).json(result[0]) : res.status(404).send('Force User does not exist !');
     }
   });
 });
