@@ -38,7 +38,7 @@ app.get("/force_users", (req, res) => {
 app.get("/force_users/:id", (req, res) => {
   const forceUserId = req.params.id;
   connection.query(
-    'SELECT * FROM users WHERE id = ?',
+    'SELECT * FROM force_users WHERE id = ?',
     [forceUserId],
     (err, result) => {
     if (err) {
